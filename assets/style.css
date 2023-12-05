@@ -16,27 +16,18 @@
     --text-color-grey: #717171;
 }
 
-body{
+ body{
     background-color: var(--web-app-bg-color);
-    width: 70vw;
-    margin: 0 auto;
+    position: relative;
 }
 
 .web-app .top{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
     background-color: var(--web-app-bg-top);
-
-    margin-inline: 10px;
 
 }
 
-.web-app .top figure img{
-    width: 80%;
-
-    background-color: var(--web-app-bg-left);
+.web-app figure img{
+    width: 20%;
 }
 
 .web-app .top div button{
@@ -52,7 +43,16 @@ body{
     cursor: pointer;
 }
 
-/* LEFT SIDE OF THE APP WITH MENU */
+
+
+ /* LEFT SIDE OF THE APP WITH MENU  */
+
+
+.web-app .menu-left ul li{
+    list-style-type: none;
+
+}
+
 
 .web-app .menu-left{
     background-color: var(--web-app-bg-left);
@@ -64,21 +64,42 @@ body{
 
     flex-basis: 20%;
 
-    margin-inline: 10px;
-}
-
-.web-app .menu-left ul li{
-    list-style-type: none;
-
-    display: flex;
-    align-items: center;
-    gap: 5px;
+    padding: 20px;
 }
 
 .web-app .menu-left .upper-side ul li img,
 .web-app .menu-left .lower-side ul li img{
-    width: 25px;
+    width: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
 
 .web-app .menu-left .upper-side ul li i{
     background-color: var(--text-color-grey);
@@ -88,9 +109,9 @@ body{
 
 
 
-/* MIDDLE PART OF THE APP WITH ALBUMS */
+ MIDDLE PART OF THE APP WITH ALBUMS 
 
 .web-app .middle{
     flex-basis: 80%;
 }
-
+ */
