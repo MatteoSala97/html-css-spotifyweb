@@ -2,4 +2,95 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    /* border: 1px solid red; */
 }
+
+:root{
+    --web-app-bg-color: #0E0E0E;
+    --web-app-bg-top: #080B12;
+    --web-app-bg-left: #000000;
+    --web-app-bg-middle: #141922;
+    --web-app-bg-bottom: #282828;
+    --text-color-white: #ffffff;
+    --text-color-grey: #717171;
+}
+
+body{
+    background-color: var(--web-app-bg-color);
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.web-app .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--web-app-bg-top);
+
+    margin-inline: 10px;
+
+}
+
+.web-app .top figure img{
+    width: 80%;
+
+    background-color: var(--web-app-bg-left);
+}
+
+.web-app .top div button{
+    text-transform: uppercase;
+    color: var(--text-color-white);
+    background-color: var(--web-app-bg-top);
+
+    border-radius: 30px;
+    padding-inline: 25px;
+    padding-block: 15px;
+    border: 1px solid var(--text-color-white);
+
+    cursor: pointer;
+}
+
+/* LEFT SIDE OF THE APP WITH MENU */
+
+.web-app .menu-left{
+    background-color: var(--web-app-bg-left);
+    color: var(--text-color-grey);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    flex-basis: 20%;
+
+    margin-inline: 10px;
+}
+
+.web-app .menu-left ul li{
+    list-style-type: none;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.web-app .menu-left .upper-side ul li img,
+.web-app .menu-left .lower-side ul li img{
+    width: 25px;
+}
+
+.web-app .menu-left .upper-side ul li i{
+    background-color: var(--text-color-grey);
+    color: var(--web-app-bg-left)
+}
+
+
+
+
+/* MIDDLE PART OF THE APP WITH ALBUMS */
+
+.web-app .middle{
+    flex-basis: 80%;
+}
+
