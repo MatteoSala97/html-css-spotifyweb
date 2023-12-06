@@ -58,5 +58,66 @@ XXL	        ≥1400px
 
 
 @media screen and (min-width: 992px) {
+    .album-cover,
+    .album-release,
+    .popular-artists{
+        width: calc(100% / 4 - 10px);
+        gap: 10px;
+        text-align: center;
+    }
+
+    .album-release,
+    .popular-artists{
+        width: calc(100% / 2 - 10px);
+        gap: 10px;
+        text-align: center;
+    }
+    .song figure img{
+        width: 80px;
+    }
     
+    .media-player-center,
+    .action-menu{
+        gap: 15px;
+    }
+    
+    .duration input{
+        width: 400px;
+    }
+
+    .media-player-center .action-menu i,
+    .media-player-right i{
+        font-size: 20px;
+        
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1400px) {
+    .album-cover,
+    .album-release,
+    .popular-artists{
+        width: calc(100% / 6 - 10px);
+    }
+
+    .album-release,
+    .popular-artists{
+        width: calc(100% / 3 - 10px);
+        
+    }
+
+    .duration input{
+        width: 800px;
+    }
+
+    .media-player-center .action-menu i,
+    .media-player-right i{
+        font-size: 25px;
+        
+    }
 }
