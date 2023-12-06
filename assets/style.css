@@ -170,12 +170,37 @@ ul{
 }
 
 
+
 /********************
     Sidebar style
 *********************/
+.sidebar div figure {
+    align-items: center;
+}
 
-.sidebar figure img{
+.sidebar div figure img{
     padding: 10px;
+}
+
+.sidebar span{
+    color: var(--text-color-grey);
+    display: none;
+}
+
+.playlist-list{
+    color: var(--text-color-grey);
+    display: none;
+    margin-left: 10px;
+}
+
+.playlist-list ul li{
+    padding: 5px;
+}
+
+#playlist{
+    color: var(--text-color-white);
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .profile{
@@ -184,16 +209,45 @@ ul{
     border-radius: 50%;
     background-color: var(--text-color-grey);
 
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
+
 }
+
+.profile span{
+    margin-left: 10px;
+    color: var(--text-color-white);
+    font-weight: bold;
+}
+
+.spotify-logo1{
+    display: block;
+}
+
+.spotify-logo2{
+    display: none;
+}
+
+.fa-plus{
+    background-color: var(--text-color-grey);
+    color: var(--web-app-bg-left);
+    padding: 5px;
+    margin-right: 5px;
+}
+
+hr{
+    width: 80%;
+    margin: 0 auto;
+    display: none;
+}
+
+
 
 /**************************
     Web app bottom style 
 ***************************/
 
 .song figure img{
-    width: 70px;
+    width: 50px;
     padding: 5px;
 }
 

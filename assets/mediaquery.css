@@ -26,7 +26,37 @@ XXL	        ≥1400px
         left: 150px;
     }
     
-    .sidebar .top-side figure img{
+    .sidebar .top-side .spotify-logo2 img{
+        width: 100%;
+    }
+
+    .spotify-logo1{
+        display: none;
+    }
+
+    .spotify-logo2{
+        display: block;
+        padding: 0;
+    }
+
+    .icon{
         width: 50px;
     }
+    
+    .sidebar span{
+        display: block;
+    }
+
+    .playlist-list{
+        display: block;
+    }
+
+    hr{
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    
 }
