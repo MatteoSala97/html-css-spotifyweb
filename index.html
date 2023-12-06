@@ -15,36 +15,51 @@
 
 </head>
 <body>
-    <div class="web-app">   
-        <div class="menu-left">
+    <header>
+        <div class="upgrade flex">
+            <ul>
+                <li>
+                    <a href="#">effettua l'upgrade</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="menu-left flex flex-column">
+        <div class="nav-top flex flex-column">
             <figure>
                 <img src="./assets/img/logo.svg" alt="">
             </figure>
-
-            <div class="nav-buttons">
-                <ul>
-                    <li>
+            <ul>
+                <li>
+                    <a href="">
                         <img src="./assets/img/home.svg" alt="">
                         <span>Home</span>
-                    </li>
-                    <li>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
                         <img src="./assets/img/search.svg" alt="">
                         <span>Cerca</span>
-                    </li>
-                    <li>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
                         <img src="./assets/img/libreria.svg" alt="">
                         <span>La tua libreria</span>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="playlist">
+                    </a>
+                </li>
+            </ul>
+            
+            <div class="playlist flex flex-column">
                 <ul>
                     <li>
-                        Playlist
+                        <span class="im-white">Playlist</span>
                     </li>
                     <li>
-                        <i class="fa-solid fa-plus"></i>
+                        <span>
+                            <i class="fa-solid fa-plus"></i>
+                        </span>
                         Crea playlist
                     </li>
                     <li>
@@ -69,16 +84,29 @@
                         Nome playlist
                     </li>
                 </ul>
-            </div>
+            </div>    
         </div>
 
-
-
-
-
-
-
-
+        <nav class="nav-bottom flex flex-column">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="./assets/img/download.svg" alt="download">
+                        <span>Installa app</span>
+                    </a>
+                </li>
+                <hr>
+                <li>
+                    <a href="">
+                        <img src="./assets/img/profile.svg" alt="profile">
+                        <span>John Doe</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </div>
+
+    <main></main>
+    <footer></footer>
 </body>
 </html>
