@@ -15,6 +15,7 @@
     --text-color-white: #ffffff;
     --text-color-grey: #717171;
     --svg-filter-color-grey: invert(43%) sepia(3%) saturate(6%) hue-rotate(314deg) brightness(102%) contrast(92%);
+   
 }
 
 body{
@@ -50,12 +51,21 @@ li{
     flex-direction: column;
 }
 
+/************
+    Header 
+*************/
+
 header{
     width: 100%;
     background-color: var(--web-app-bg-top);
     padding-block: 30px;
     position: absolute;
     right: 0px;
+}
+
+.im-white{
+    color: var(--text-color-white);
+    font-weight: bold;
 }
 
 .upgrade ul li a{
@@ -68,6 +78,10 @@ header{
     padding-block: 10px;
     margin-right: 10px;
 }
+
+/**********************
+    Menu on the left 
+***********************/
 
 .menu-left{
     background-color: #000000;
@@ -88,11 +102,12 @@ header{
     padding: 20px;
 }
 
+
 .nav-top .playlist .im-white{
-    color: var(--text-color-white);
     text-transform: uppercase;
-    font-weight: bold;
 }
+
+
 
 .nav-top ul li{
     padding-block: 10px;
@@ -133,6 +148,10 @@ header{
     margin: 10px auto;
 }
 
+/************
+    Footer 
+*************/
+
 .footer{
     width: 100%;
     background-color: var(--web-app-bg-bottom);
@@ -143,3 +162,39 @@ header{
     justify-content: space-between;
     gap: 8px;
 }
+
+.media-player{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.song figure img{
+    width: 50px;
+    padding: 5px;
+}
+
+.media-player-center,
+.media-player-right,
+.song{
+    align-items: center;
+}
+
+.media-player-center .action-menu i,
+.media-player-right i{
+    font-size: 25px;
+    color: white;
+}
+
+.media-player-center .duration input{
+    width: 500px;
+}
+
+.media-player-right,
+.action-menu{
+    gap: 20px;
+}
+
+.name{
+    color: var(--text-color-grey);;
+}
+
