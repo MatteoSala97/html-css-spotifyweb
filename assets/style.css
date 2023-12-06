@@ -6,16 +6,7 @@
     /* border: 1px solid red; */
 }
 
-/* media query dimensions
 
-X-Small	    <576px 
-Small	    ≥576px
-Medium	    ≥768px
-Large	    ≥992px
-XL	        ≥1200px
-XXL	        ≥1400px
-
- */
 
 
  /*  Roots and resets  */
@@ -61,7 +52,6 @@ ul{
 /**************************
     Web app starts here 
 ***************************/
-
 .web-app{
     height: 100vh;
 }
@@ -70,7 +60,7 @@ ul{
     height: calc( 100% - 90px );
     background-color: var(--web-app-bg-top);
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .sidebar{
@@ -80,7 +70,7 @@ ul{
 
     justify-content: space-between;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .albums{
@@ -93,7 +83,7 @@ ul{
     gap: 20px;
     overflow-y: auto;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-inline: 20px;
 }
 
@@ -126,7 +116,7 @@ ul{
     height: 90px;
     background-color: var(--web-app-bg-bottom);
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .nav-sections ul{

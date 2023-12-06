@@ -1,0 +1,32 @@
+/* media query dimensions
+
+X-Small	    <576px 
+Small	    ≥576px
+Medium	    ≥768px
+Large	    ≥992px
+XL	        ≥1200px
+XXL	        ≥1400px
+
+ */
+
+
+
+
+@media screen and (min-width: 768px) {
+    .sidebar{
+        width: 150px;
+    }
+
+    .albums{
+        width: calc( 100% - 150px );
+        height: 100%;
+    }
+
+    .upgrade{
+        left: 150px;
+    }
+    
+    .sidebar .top-side figure img{
+        width: 50px;
+    }
+}
