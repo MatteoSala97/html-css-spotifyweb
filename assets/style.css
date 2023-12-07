@@ -70,6 +70,7 @@ ul{
 
     justify-content: space-between;
 
+    overflow: hidden;
     /* border: 1px solid red; */
 }
 
@@ -100,16 +101,25 @@ ul{
     align-items: center;
 }
 
-.upgrade a{
+.upgrade button{
     color: var(--text-color-white); 
     text-transform: uppercase;
     border: 1px solid var(--text-color-white);
     border-radius: 20px;
 
+    background-color: var(--web-app-bg-top);
+
     padding-inline: 30px;
     padding-block: 10px;
-    margin-right: 20px;
+    margin-right: 40px;
 
+    transition: transform 0.s ease-in-out;
+
+}
+
+.upgrade button:hover{
+    transform: scale(1.2); 
+    cursor: pointer;
 }
 
 .web-app-bottom{
@@ -187,10 +197,20 @@ ul{
     display: none;
 }
 
+.sidebar span:hover{
+    color: var(--text-color-white);
+    cursor: pointer;
+}
+
 .playlist-list{
     color: var(--text-color-grey);
     display: none;
     margin-left: 10px;
+}
+
+.playlist-list li:hover{
+    color: var(--text-color-white);
+    cursor: pointer;
 }
 
 .playlist-list ul li{
@@ -254,6 +274,8 @@ hr{
 .media-player{
     justify-content: space-between;
     align-items: center;
+
+    margin-right: 10px;
 }
 
 .media-player-center,
@@ -282,3 +304,7 @@ hr{
     font-weight: bold;
 }
 
+.duration span{
+    color: var(--text-color-white);
+    padding: 5px;
+}
