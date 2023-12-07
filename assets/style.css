@@ -114,7 +114,6 @@ ul{
     margin-right: 40px;
 
     transition: transform 0.3s ease-in-out;
-
 }
 
 .upgrade button:hover{
@@ -211,7 +210,6 @@ ul{
     fill: white;
 
     border-radius: 50%;
-    
 }
 
 figure:hover .play-hover{
@@ -244,8 +242,6 @@ figure:hover .play-hover-round{
     border-radius: 50%;
     object-fit: cover;
 }
-
-
 
 /********************
     Sidebar style
@@ -325,8 +321,6 @@ hr{
     margin: 0 auto;
     display: none;
 }
-
-
 
 /**************************
     Web app bottom style 

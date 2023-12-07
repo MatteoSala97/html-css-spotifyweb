@@ -8,10 +8,6 @@ XL	        ≥1200px
 XXL	        ≥1400px
 
  */
-
-
-
-
 @media screen and (min-width: 768px) {
     .sidebar{
         width: 150px;
@@ -56,7 +52,6 @@ XXL	        ≥1400px
     }
 }
 
-
 @media screen and (min-width: 992px) {
     .album-cover,
     .album-release,
@@ -72,6 +67,7 @@ XXL	        ≥1400px
         gap: 10px;
         text-align: center;
     }
+
     .song figure img{
         width: 80px;
     }
@@ -91,12 +87,6 @@ XXL	        ≥1400px
         
     }
 }
-
-
-
-
-
-
 
 @media screen and (min-width: 1400px) {
     .album-cover,
